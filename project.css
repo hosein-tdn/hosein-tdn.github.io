@@ -1,0 +1,47 @@
+* {
+    font-family: "Google";
+    font-weight: 400, 700;
+}
+@font-face {
+    font-family: Google;
+    src: url(font/Outfit-VariableFont_wght.ttf);
+}
+body {
+    background-color:hsl(212, 45%, 89%) ;
+}
+img {
+    border-radius: 13px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 340px;
+    margin-top: 20px;
+}
+.container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    background-color: white;
+    border-radius: 23px;
+    width: 375px;
+    height: 580px;
+    box-shadow: 0 0 50px hsl(220, 15%, 55%);
+}
+h2 {
+    color: hsl(218, 44%, 22%);
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
+p{
+    text-align: center;
+    color:hsl(220, 15%, 55%) ;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    font-size: 17px;
+}
